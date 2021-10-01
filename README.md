@@ -1,2 +1,2 @@
-# dotfiles
+# CyberArch Dotfiles
 Arch Linux Dotfiles

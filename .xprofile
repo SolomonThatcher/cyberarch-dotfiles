@@ -1,0 +1,8 @@
+# Wallpaper
+nitrogen --restore --set-zoom-fill &
+
+# Compositor
+picom -f &
+
+# Disable System Beep
+xset b off

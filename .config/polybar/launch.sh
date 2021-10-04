@@ -16,5 +16,5 @@ polybar external -c ~/.config/polybar/config.ini &
 #Changes launch procedure depending on display settings
 my_laptop_external_monitor=$(xrandr --query | grep 'HDMI-0')
 if [[ $my_laptop_external_monitor = *connected* ]]; then
-    polybar external -c ~.config/polybar/polybar1/config.ini &
+    polybar external -c ~.config/polybar/config.ini &
 fi

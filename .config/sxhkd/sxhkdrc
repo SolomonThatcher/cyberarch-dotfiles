@@ -28,13 +28,19 @@ super + {x,r,p,f,b}
 
 
 super + v
-	pavucontrol
+	termite -e pacmixer
 
 ##---------- Applications ----------##
 
 # Launch Apps
 #super + shift + {f,b,e}
 #	{nemo,blueman-manager,geany}
+
+# Ranger
+super + shift + f
+    termite -e ranger
+
+
 
 ##---------- System ----------##
 

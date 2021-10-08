@@ -22,13 +22,13 @@ super + n
 # Rofi Menus
 super + w
 	rofi -show window
-super + {x,r,p,f,b}
-	{powermenu,xrandrmenu,scrotmenu,nemo,blueman-manager}
+super + {x,r,p,b}
+	{powermenu,xrandrmenu,scrotmenu,blueman-manager}
 
 
 
 super + v
-	termite -e pacmixer
+	termite -e 'pacmixer' 
 
 ##---------- Applications ----------##
 
@@ -37,8 +37,8 @@ super + v
 #	{nemo,blueman-manager,geany}
 
 # Ranger
-super + shift + f
-    termite -e ranger
+super + f
+    termite -d '/home/sy/' -e 'zsh' -e 'ranger'
 
 
 
@@ -46,7 +46,7 @@ super + shift + f
 
 # Take a screenshot
 Print
-	scrotmenu
+	scrot
 	
 # Take a screenshot in 5 second
 alt + Print	
@@ -87,7 +87,7 @@ super + Escape
 
 # Start Mail Client
 super + m
-	thunderbird
+	termite -d '/home/sy/' -e 'zsh' -e 'musikcube'
 
 # Quit/Restart bspwm
 ctrl + alt + {q,r}

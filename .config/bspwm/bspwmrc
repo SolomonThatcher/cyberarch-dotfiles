@@ -21,8 +21,8 @@ bspc config gapless_monocle	true
 
 # Set correct color palete for system
 shade1="#808080"
-shade2="#388E3C"
-shade3="#388E3C"
+shade2="#00796B"
+shade3="#00796B"
 shade4="#808080"
 
 bspc config normal_border_color ${shade1}

@@ -1,0 +1,22 @@
+* {
+	background-color: rgba ( 0, 0, 0, 0%);
+	text-color: rgba ( 255, 255, 255, 100%);
+	background: rgba ( 246, 143, 143, 80%);
+	background-light: rgba( 247, 161, 161, 80%);
+}
+window {
+	background-color: @background;
+	padding: 5;
+	border-radius: 0;
+}
+element.selected {
+	background-color: @background-light;
+}
+inputbar {
+	children: [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+textbox-prompt-colon {
+	expand: false;
+	str: ":";
+	margin: 0px;
+}

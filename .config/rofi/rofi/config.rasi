@@ -1,0 +1,3 @@
+configuration {
+	theme: "/home/sy/.config/rofi/color.rasi";
+}
